@@ -47,15 +47,15 @@ table {
 	border-spacing: 0;
 }
 
-
-
+/* 
+end of rest css */
 
 body{
     margin: 2em;
     padding: 2em;
     font-family: verdana,  sans-serif;
     text-align: center;
-    background-color: #bbbbb5;
+    background-color: #00587a;
     font-family: 'Exo 2', sans-serif;
     font-size: 16px;
 
@@ -64,20 +64,51 @@ body{
 
 .top-container{
     font-family: 'Satisfy', cursive;
-    
+    font-size: 2em;
+    line-height: 3.5rem;
+    color: #7cbbb6;
 
 }
-h1{
-    font-size: 4em;
+.top-container h1{
+    font-size: 4rem;
+    color: #008891;
+    font-weight: 700;
 }
+
 .middle-container{
-
+    line-height: 1.5rem;
+    color: #e7e7de;
+    background-color: #0f3057;
+    padding-bottom: 3em;
+    margin-bottom: 2em;
+    margin: 2em auto;
+    width: 80%;
+    border-radius: 3em;
 }
-.middle-container{
-
+.skill-row{
+    width: 90%;
+    margin: 10px auto;
 }
+
 
 
 img{
-    max-width: 700px;
+    max-width: 80%;
+    border-radius: 2em;
 }
+hr {
+
+    width:85%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(15, 58, 26, 0.75), rgba(0, 0, 0, 0));
+  }
+  h2{
+      font-size: 1.7em;
+      margin: 1em 0 ;
+  }
+  p{
+      width: 90%;
+      margin: 4px auto;
+  }
+
