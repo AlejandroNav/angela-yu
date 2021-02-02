@@ -55,11 +55,7 @@ body{
     padding: 2em;
     font-family: verdana,  sans-serif;
     text-align: center;
-<<<<<<< HEAD
     background-color: #00587a;
-=======
-    background-color: #def5d1e8;
->>>>>>> 05f43bc9c1c78a3f3df05c827e4267da2237c11f
     font-family: 'Exo 2', sans-serif;
     font-size: 16px;
 
@@ -70,26 +66,17 @@ body{
     font-family: 'Satisfy', cursive;
     font-size: 2em;
     line-height: 3.5rem;
-<<<<<<< HEAD
     color: #7cbbb6;
-=======
-    color: #96bb7c;
->>>>>>> 05f43bc9c1c78a3f3df05c827e4267da2237c11f
 
 }
 .top-container h1{
     font-size: 4rem;
-<<<<<<< HEAD
     color: #008891;
-=======
-    color: #184d47;
->>>>>>> 05f43bc9c1c78a3f3df05c827e4267da2237c11f
     font-weight: 700;
 }
 
 .middle-container{
     line-height: 1.5rem;
-<<<<<<< HEAD
     color: #e7e7de;
     background-color: #0f3057;
     padding-bottom: 3em;
@@ -97,19 +84,6 @@ body{
     margin: 2em auto;
     width: 80%;
     border-radius: 3em;
-=======
-    color: #bd9d58;
-    background-color: #d6eec3;
-    padding-bottom: 3em;
-    margin-bottom: 2em;
-}
-.skill-row{
-    width: 90%;
-    margin: 10px auto;
-}
-bottom-container{
-
->>>>>>> 05f43bc9c1c78a3f3df05c827e4267da2237c11f
 }
 .skill-row{
     width: 90%;
@@ -119,12 +93,8 @@ bottom-container{
 
 
 img{
-<<<<<<< HEAD
     max-width: 80%;
     border-radius: 2em;
-=======
-    max-width: 600px;
->>>>>>> 05f43bc9c1c78a3f3df05c827e4267da2237c11f
 }
 hr {
 
@@ -138,27 +108,7 @@ hr {
       margin: 1em 0 ;
   }
   p{
-<<<<<<< HEAD
       width: 90%;
       margin: 4px auto;
   }
 
-=======
-      width: 40%;
-      margin: 4px auto;
-  }
-
-  .btn{
-    display: inline-block;
-    padding: .75rem 1.25rem;
-    border-radius: 10rem;
-    color: rgb(201, 110, 110);
-    text-transform: uppercase;
-    font-size: 1rem;
-    letter-spacing: .15rem;
-    transition: all .3s;
-    position: relative;
-    overflow: hidden;
-    z-index: 1;
-  }
->>>>>>> 05f43bc9c1c78a3f3df05c827e4267da2237c11f
