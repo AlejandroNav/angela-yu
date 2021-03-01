@@ -1,0 +1,18 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#navbar-styles{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 136, 127);
+}
+#navbar-styles a{
+    background-color: rgb(148, 14, 14);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+#navbar-styles a:hover{
+    color: rgb(240, 135, 135);
+}
