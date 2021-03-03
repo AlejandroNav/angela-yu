@@ -25,6 +25,10 @@ body{
     font-size: 1.8em;
     margin-left: 20px;
 }
+.nav-item{
+    font-size: 1.2em;
+    padding: 5px 16px;
+}
 #navbar-styles a:hover{
     color: rgb(192, 17, 17);
     border-bottom:  2px solid rgb(192, 17, 17) ;
@@ -44,4 +48,24 @@ p{
 .container-fluid{
     padding: 0;
     margin:0;
+}
+.download-btn{
+    margin: 5% 2%;
+}
+.rotated{
+    transform: rotate(10deg);
+    width: 80%;
+}
+.caja1{
+    padding:  1em;
+}
+
+#features{
+    text-align: center;
+    line-height: 1.4em;
+    padding: 8% 15%;
+    background-color: rgb(224, 150, 59);
+}
+#features h3{
+    font-weight: 900;
 }
