@@ -86,5 +86,21 @@ p{
 /* Carrusel de Testimonios */
 
 #testimonials{
-    color: aquamarine;
+    padding: 5% 18%;
+    text-align: center;
+    background-color: #d32121;
+    color: rgb(255, 255, 255);
+}
+.test-img{
+    height: 17em;
+    width: 23em;
+    object-fit: cover;
+    border-radius: 100%;
+    margin: 15px;
+}
+
+h2{
+    font-size: 2rem;
+    line-height: 1.4;
+    font-weight: 900;
 }
