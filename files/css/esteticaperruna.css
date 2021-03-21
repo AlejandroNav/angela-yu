@@ -82,3 +82,9 @@ p{
     filter: invert(13%) sepia(02%) saturate(3380%) hue-rotate(356deg) brightness(109%) contrast(92%);
 
 }
+
+/* Carrusel de Testimonios */
+
+#testimonials{
+    color: aquamarine;
+}
