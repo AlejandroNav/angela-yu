@@ -90,12 +90,13 @@ p{
     text-align: center;
     background-color: #d32121;
     color: rgb(255, 255, 255);
+    
 }
 .test-img{
-    height: 17em;
-    width: 23em;
+    height: 8em;
+    width: 20em;
     object-fit: cover;
-    border-radius: 100%;
+    border-radius: 4px;
     margin: 15px;
 }
 
@@ -104,3 +105,15 @@ h2{
     line-height: 1.4;
     font-weight: 900;
 }
+
+.doggo{
+    margin:4em 0 2em 0 ;
+    bottom: 1em;
+    background-color: #ffffff;
+    color: black;
+}
+.container1 {
+    width: 90%;
+    margin: 0 auto;
+    padding: 25px;
+  }
