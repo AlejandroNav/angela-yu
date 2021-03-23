@@ -1,69 +1,74 @@
-body{
+body {
     font-family: 'Montserrat', sans-serif;
-    
 }
 
-#title{
+#title {
     background-color: #d32121;
 }
 
-
-#navbar-styles{
+#navbar-styles {
     background-color: rgb(0, 0, 0);
 }
-#navbar-styles a{
+
+#navbar-styles a {
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     padding: 10px;
-    
 }
-.navbar{
-    margin-bottom: 3
-    em;
+
+.navbar {
+    margin-bottom: 3 em;
 }
-.navbar-brand{
+
+.navbar-brand {
     font-size: 1.8em;
     margin-left: 20px;
 }
-.nav-item{
+
+.nav-item {
     font-size: 1.2em;
     padding: 5px 16px;
 }
-#navbar-styles a:hover{
+
+#navbar-styles a:hover {
     color: rgb(192, 17, 17);
-    border-bottom:  2px solid #c01111 ;
-    
+    border-bottom: 2px solid #d32121;
 }
-p{
+
+p {
     font-family: 'Open Sans', sans-serif;
 }
-#entrada h1{
+
+#entrada h1 {
     font-weight: 900;
     font-size: 3rem;
     line-height: 1.4em;
     color: rgb(255, 255, 255);
     margin: 1em 0 1em 0;
+}
 
-}
-.container-fluid{
+.container-fluid {
     padding: 0;
-    margin:0;
+    margin: 0;
 }
-.download-btn{
+
+.download-btn {
     margin: 5% 2%;
 }
-.rotated{
+
+.rotated {
     transform: rotate(10deg);
     width: 80%;
     position: relative;
     top: 70px;
     z-index: 0;
 }
-.caja1{
-    padding:  1em;
+
+.caja1 {
+    padding: 1em;
 }
 
-#features{
+#features {
     text-align: center;
     line-height: 1.4em;
     padding: 8% 15%;
@@ -71,34 +76,42 @@ p{
     position: relative;
     z-index: 1;
 }
-#features h3{
+
+
+#features h3 {
     font-weight: 900;
+    font-size: 2.4em;
 }
-#features P{
+
+#features p {
     font-weight: 100;
-    color: rgb(141, 141, 145);
+    font-size: 1.5rem;
+    color: rgb(58, 58, 58);
+    
+    line-height: 1.4em;
+
 }
-.icono{
+
+.icono {
     width: 60px;
     margin-bottom: 20px;
     filter: invert(13%) sepia(92%) saturate(3380%) hue-rotate(356deg) brightness(109%) contrast(92%);
 }
-.icono:hover{
+
+.icono:hover {
     filter: invert(13%) sepia(02%) saturate(3380%) hue-rotate(356deg) brightness(109%) contrast(92%);
-
 }
-
 
 /* Carrusel de Testimonios */
 
-#testimonials{
+#testimonials {
     padding: 5% 18%;
     text-align: center;
     background-color: #d32121;
     color: rgb(255, 255, 255);
-    
 }
-.test-img{
+
+.test-img {
     height: 8em;
     width: 20em;
     object-fit: cover;
@@ -106,20 +119,66 @@ p{
     margin: 15px;
 }
 
-h2{
+h2 {
     font-size: 2rem;
     line-height: 1.4;
     font-weight: 900;
 }
 
-.doggo{
-    margin:4em 0 2em 0 ;
+.doggo {
+    margin: 4em 0 2em 0;
     bottom: 1em;
     background-color: #ffffff;
     color: black;
 }
+
 .container1 {
     width: 90%;
     margin: 0 auto;
     padding: 25px;
-  }
+}
+
+#cta {
+    background-color: #d32121;
+    color: white;
+    padding: 8% 17%;
+    text-align: center;
+
+}
+#cta-head{
+    font-weight: 300;
+    font-size: 4em;
+    line-height: 1.6;
+    padding-bottom: 1em;
+    
+}
+.extr{
+    font-size: 1.70em;
+    margin: 10px;
+    padding: 10px;
+}
+#footer1 p{
+    align-items: center;
+    text-align: center;
+    color: #c70000;
+    font-size: 1.3rem;
+    margin: 40px;
+}
+@media (max-width: 992px) {
+    .rotated {
+        transform: rotate(0);
+        width: 70%;
+        position: static;
+        top: 5em;
+        z-index: 0;
+        width: 30%;
+    }
+    #title {
+        text-align: center;
+    }
+    #entrada {
+        width: 70%;
+        margin: auto;
+    }
+
+}
