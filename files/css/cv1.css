@@ -1,8 +1,23 @@
 html{
     color: #d34b6b;
-    background-color: #26547C;
+    background-color: #1a4163;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 h1{
     color: #d3b34b;
+}
+.experiencia{
+    color: rgb(240, 142, 77);
+    padding: 20px;
+}
+.presentacion{
+    padding: 30px;
+}
+
+.habilidades{
+    padding: 20px;
+}
+
+footer{
+    padding: 40px;
 }
