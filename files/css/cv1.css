@@ -11,7 +11,8 @@ h1{
     padding: 20px;
 }
 .presentacion{
-    padding: 30px;
+    padding: 20px;
+    
 }
 
 .habilidades{
@@ -19,5 +20,12 @@ h1{
 }
 
 footer{
-    padding: 40px;
+    padding: 20px;
+}
+
+.imgi{
+    height: 200px;
+}
+.imgi2{
+    height: 400px;
 }
