@@ -1,10 +1,10 @@
 html{
-    color: #d34b6b;
-    background-color: #1a4163;
+    color: #ec7a95;
+    background-color: #2378c4;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 h1{
-    color: #d3b34b;
+    color: #d1a617;
 }
 .experiencia{
     color: rgb(240, 142, 77);
@@ -28,4 +28,8 @@ footer{
 }
 .imgi2{
     height: 400px;
+}
+
+.box{
+    border: solid 3px #d1a617;
 }
