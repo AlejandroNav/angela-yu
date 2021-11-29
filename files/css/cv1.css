@@ -8,28 +8,32 @@ h1{
 }
 .experiencia{
     color: rgb(240, 142, 77);
-    padding: 20px;
 }
 .presentacion{
-    padding: 20px;
     
 }
 
 .habilidades{
-    padding: 20px;
 }
 
 footer{
-    padding: 20px;
 }
 
-.imgi{
-    height: 200px;
+.clouds{
+    height: 10em;
+    display: inline-block;
+    position: relative;
+    left : 50px;
 }
 .imgi2{
-    height: 400px;
+    height: 18em;
+    position: relative;
+    left: 80px;
+    
 }
 
 .box{
     border: solid 3px #d1a617;
+    margin: .4em .1em;
+    padding: .1em;
 }
