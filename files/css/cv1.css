@@ -45,6 +45,7 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+
 }
 
 /*  -------------------------------------CUSTOM CSS ----------------------------------*/
@@ -75,6 +76,20 @@ h2{
     padding-top: 3em;
     background-color: rgb(43, 156, 255);
 }
+.greeting{
+    margin: 1.5em;
+    color: rgb(133, 204, 111);
+    font-size: 1.4em;
+    padding: 1em;
+    text-align: center;
+}
+
+.supra{
+    margin: 1.5em;
+    color: rgb(240, 142, 77);
+    font-size: 1.4em;
+    padding: 5em;
+}
 
 .experiencia{
     margin: 1em;
@@ -101,22 +116,22 @@ footer{
     height: 14em;
     position: absolute;
     top: 2em;
-    right: 6em;
+    right: 5em;
 }
 .cloud2{
     height: 12em;
     position: absolute;
-    left: 12em;
+    left: 7em;
     top: 10em;
 }
 .imgi2{
-    height: 50em;
+    height: 30em;
     position: relative    ;
     top: 7em;
     
 }
 
-.abox{
+.box{
     border: dotted 2px #d1a617;
 
 }
