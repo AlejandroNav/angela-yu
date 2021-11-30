@@ -52,19 +52,21 @@ table {
 
 
 html{
-    color: #ffa1b7;
-    background-color: #125591;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fdced9;
+    background-color: #062a49;
+    font-family:  'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 }
+
 h1{
     color: #ecd27d;
-    font-size: 3em;
+    font-size: 5em;
     width: 40%;
     margin: auto;
     padding: .2em;
+    font-family: 'Comforter', serif;
 }
 h2{
-    font-size: 2em;
+    font-size: 2.5em;
  
 }
 
@@ -72,7 +74,6 @@ h2{
     text-align: center;
     padding-top: 3em;
     background-color: rgb(43, 156, 255);
-    rgb(127, 172, 255)rgb(127, 172, 255)
 }
 
 .experiencia{
