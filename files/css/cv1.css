@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 1.3;
 }
 ol, ul {
 	list-style: none;
@@ -56,6 +56,7 @@ html{
     color: #fdced9;
     background-color: #062a49;
     font-family:  'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    line-height: 2;
 }
 
 h1{
@@ -69,6 +70,10 @@ h1{
 h2{
     font-size: 2.5em;
  
+}
+p{
+    line-height: 1.7;
+    margin: 1.3rem;
 }
 
 .presentacion{
@@ -87,8 +92,19 @@ h2{
 .supra{
     margin: 1.5em;
     color: rgb(240, 142, 77);
-    font-size: 1.4em;
-    padding: 5em;
+    font-size: 1.2em;
+    padding: 1.5em;
+    text-align: left;
+}
+.supra p{
+    font-size: .9em;
+    margin: 25px 0;
+}
+.supra-row{
+text-align: left;
+}
+h3{
+    color: #d1a617;
 }
 
 .experiencia{
@@ -130,8 +146,17 @@ footer{
     top: 7em;
     
 }
-
-.box{
+.centerImga{
+    width: 13%;
+    float: left;
+    margin: 2.7rem;
+}
+.centerImgb{
+    width: 15%;
+    float: right;
+    margin: 1.7em 2em 5em 3em;
+}
+.abox{
     border: dotted 2px #d1a617;
 
 }
