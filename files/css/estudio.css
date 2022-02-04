@@ -1,8 +1,27 @@
 #title {
     background-color: #7882A4;
     color: #EFEFEF;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title h1 {
+    color: #D1D1D1;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.brandy {
+    font-family: 'Abril Fatface', cursive;
 }
 
 .front {
     width: 100%;
+}
+
+
+/* Modifying bootstrap */
+
+.container-fluid {
+    padding: 3% 15%;
 }
