@@ -1,4 +1,4 @@
-body {
+    body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
 }
@@ -52,13 +52,9 @@ body {
 }
 
 .featurebox img {
-    height: 5em;
-    filter: invert(20%) sepia(32%) saturate(870%) hue-rotate(159deg) brightness(96%) contrast(86%);
-}
-
-#features {
-    padding: 10% 16%;
-    background-color: #EFEFEF;
-    text-align: center;
-    color: #254458;
-}
+    #features {
+        padding: 10% 16%;
+        background-color: #EFEFEF;
+        text-align: center;
+        color: #254458;
+    }
