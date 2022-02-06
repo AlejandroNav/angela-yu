@@ -36,11 +36,15 @@
     /* Modifying bootstrap */
     
     .container-fluid {
-        padding: 3% 15%;
+        padding: 1% 10% 3% 10%;
     }
     
     .sociales {
         margin: 5% 2%;
+    }
+    
+    #features {
+        margin: 6em;
     }
     
     .featurebox {
@@ -57,4 +61,26 @@
         width: 3em;
         color: #2c4a6b;
         filter: invert(25%) sepia(73%) saturate(416%) hue-rotate(169deg) brightness(85%) contrast(87%);
+    }
+    /* Modifying bootstrap */
+    
+    #testimonials {
+        background: #41475e;
+        color: #afabab;
+        text-align: center;
+    }
+    
+    h2 {
+        font-size: 1.8rem;
+        line-height: 1.6;
+    }
+    
+    #testimonials img {
+        width: 60%;
+        border-radius: 5%;
+        margin: 2em;
+    }
+    
+    .carousel-item {
+        padding: 7% 15%;
     }
