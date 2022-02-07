@@ -84,3 +84,9 @@
     .carousel-item {
         padding: 7% 15%;
     }
+    
+    #pricing {
+        padding-top: 3em;
+        background-color: #EFEFEF;
+        color: #333c5e;
+    }
