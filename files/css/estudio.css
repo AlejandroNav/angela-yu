@@ -90,3 +90,13 @@
         background-color: #EFEFEF;
         color: #333c5e;
     }
+    
+    .card {
+        padding: 10px;
+        margin: 2em .8em 3em .6em;
+    }
+    
+    .red {
+        border: solid 3px #2c4a6b;
+        padding: 2em 5em;
+    }
