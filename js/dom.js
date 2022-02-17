@@ -7,11 +7,10 @@ boton1.addEventListener("click", function() {
 })
 
 boton2.addEventListener('click', function() {
-    const numero = 8
+    const numero = 12
     let cuenta = [0, 1]
     for (let index = 0; index < numero; index++) {
         cuenta.push(cuenta[cuenta.length - 1] + cuenta[cuenta.length - 2])
     }
     resultado.innerHTML = cuenta
 })
-
