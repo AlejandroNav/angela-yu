@@ -14,11 +14,11 @@ imagen1.setAttribute("src",rand1)
 imagen2.setAttribute("src",rand2)
 
 if (numb1 > numb2) {
-    document.querySelector("h1").innerHTML = "Ganador 1"
+    document.querySelector("h1").innerHTML = "𓀔 Ganador 1"
 } 
 else if (numb1 < numb2) {
-    document.querySelector("h1").innerHTML = "Ganador 2"
+    document.querySelector("h1").innerHTML = "Ganador 2 𓀔"
 }
 else {
-    document.querySelector("h1").innerHTML = "Empate"
+    document.querySelector("h1").innerHTML = "Empate 🛵"
 }
