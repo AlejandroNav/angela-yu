@@ -7,10 +7,12 @@ for (let index = 0; index < numberBtn; index++) {
     .querySelectorAll(".drum")[index].addEventListener("click", function () {
         var pressedKey = this.innerHTML;
         makeSound(pressedKey)
+        animation(pressedKey)
     });
 }
 addEventListener ("keydown",function(evt){
     makeSound(evt.key)
+    animation(evt.key)
 })
 
 function makeSound(pressedKey) {
@@ -47,4 +49,13 @@ function makeSound(pressedKey) {
         default:
             break;
     }
+}
+
+function animation(currentKey) {
+    var activeBtn = document.querySelector("."+currentKey)
+    activeBtn.classList.add("pressed")
+    setTimeout(function(){
+        activeBtn.classList.remove("pressed")
+    },200)
+    
 }
