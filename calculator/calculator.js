@@ -17,3 +17,16 @@ app.post("/", function (requ,res) {
 app.listen(4000,function() {
     console.log("escucha correctamente a node en el 4000  ");
 });
+
+app.get("/bmicalculator",function (req,res) { // when the app GETS a request fromthis route
+    res.sendFile(__dirname + "/bmiCalculator.html");
+});// you specify the page that is served  as a RESponse when the user enters this route
+
+
+app.post("/bmicalculator", function (requ,res) {
+    console.log(requ.body);
+    var weight  = Number(requ.body.wei) 
+    var height = Number(requ.body.hei) 
+    var resu = weight / (height)**2;
+    res.send("Hola tu BMI es  "+resu);
+})
