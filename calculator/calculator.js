@@ -18,7 +18,7 @@ app.listen(4000,function() {
     console.log("escucha correctamente a node en el 4000  ");
 });
 
-app.get("/bmicalculator",function (req,res) { // when the app GETS a request fromthis route
+app.get("/bmicalculator",function (req,res) { // when the app GETS a request from   this route
     res.sendFile(__dirname + "/bmiCalculator.html");
 });// you specify the page that is served  as a RESponse when the user enters this route
 
