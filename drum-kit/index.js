@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 //document.querySelector("button").addEventListener("click", handleClick);
 
 var numberBtn = document.querySelectorAll(".drum").length;
@@ -59,3 +60,60 @@ function animation(currentKey) {
     },200)
     
 }
+=======
+let notes = document.querySelectorAll(".drum").length;
+
+
+
+
+
+
+
+for (let i = 0; i < notes; i++) {
+    document.querySelectorAll(".drum")[i].addEventListener("click", function(){
+        var buttonInnerHTML = this.innerHTML
+        switch (buttonInnerHTML) {
+            case "a":
+                var musi = new Audio("sounds/tom-1.mp3");
+                musi.play();
+                break;
+            case "s":
+                var musi = new Audio("sounds/tom-2.mp3");
+                musi.play();      
+                break;         
+                
+            case "d":
+                    var musi = new Audio("sounds/tom-3.mp3");
+                    musi.play();
+                    break;
+            case "w":
+                    var musi = new Audio("sounds/tom-4.mp3");
+                    musi.play();    
+                    break;    
+            case "j":
+                var musi = new Audio("sounds/snare.mp3");
+                musi.play();      
+                break;         
+                
+            case "k":
+                    var musi = new Audio("sounds/crash.mp3");
+                    musi.play();
+                    break;
+            case "l":
+                    var musi = new Audio("sounds/kick-bass.mp3");
+                    musi.play();    
+                    break;                
+            default:
+                console.log(buttonInnerHTML);
+                break;
+        }
+    });
+
+}
+
+function handleClick() {
+    var musi = new Audio("sounds/tom-1.mp3");
+    musi.play();
+}
+
+>>>>>>> Stashed changes
