@@ -60,7 +60,7 @@ function animation(currentKey) {
     },200)
     
 }
-=======
+
 let notes = document.querySelectorAll(".drum").length;
 
 
